@@ -2,7 +2,10 @@
     <h1 align="center">CONTACT PAGE</h1>
     <hr>
     <p>
-    <i class="far fa-address-book"></i>
-    <%= link_to "GO TO HOME", root_path %>
+    
+    <%= link_to root_path, clas: "text-decoration-none" do %>
+        <i class="far fa-address-book"></i>
+        <span>HOME</span>
+    <% end %>
     </p>
 </div>
