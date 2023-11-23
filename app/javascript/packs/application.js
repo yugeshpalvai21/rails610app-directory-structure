@@ -11,3 +11,12 @@ import "channels"
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
+
+// import third party packages installed via yarn or npm
+import 'bootstrap/dist/js/bootstrap'
+import 'bootstrap/dist/css/bootstrap'
+import "@fortawesome/fontawesome-free/css/all"
+
+
+// import custom styles defined in stylesheets
+require("stylesheets/application.scss")
